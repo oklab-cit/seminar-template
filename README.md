@@ -1,6 +1,6 @@
 Seminar Template 2016
 =====================
-2016 年度ゼミナール報告書のテンプレートです。
+2017 年度ゼミナール報告書のテンプレートです。
 
 |ファイル名|説明|
 |:--:|:--:|
@@ -11,7 +11,8 @@ Seminar Template 2016
 |jsme10.sty| 10 point 文字の設定ファイル|
 |jsmefont.sty| jsmepaper 使用のフォント設定ファイル|
 |jsmepaper.cls|jsmepaper の LaTeX2e スタイルファイル|
-|main.tex|基本、こいつに書く|
+|main.tex|メインのTeXファイル|
+|src/*|この中の個別のTeXファイルに書いていく|
 
 How to use
 ----------

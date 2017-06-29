@@ -11,7 +11,7 @@
 \usepackage{epic,eepic}
 
 \thispagestyle{fancy}
-\lhead{\gt \normalsize 2016年度前期ゼミナール中間報告書}
+\lhead{\gt \normalsize 2017年度前期ゼミナール中間報告書}
 \renewcommand{\headrulewidth}{0pt}
 \cfoot{\thepage}
 %\pagestyle{empty}
@@ -19,7 +19,7 @@
 \jtitle{ゼミナール報告書テンプレに関するサンプル}
 \etitle{Seminar template in OKLAB}
 \jauthor{
-  1326xxx\ \ 
+  1426xxx\ \
   氏名
 }
 \eauthor{
@@ -52,42 +52,21 @@
 \maketitle
 \thispagestyle{fancy}
 
-\section*{はじめに}
-\section{実験装置および方法}
+\input{src/introduction.tex}
 
-画像は，eps とか使うより，png でいいと思います．
-\begin{figure}[htbp]
-  \begin{center}
-    \includegraphics[width=7cm]{img/iris_confusion_matrix.png}
-    \caption{アヤメの品種を識別した際の混合行列}
-    \label{fig:one}
-  \end{center}
-\end{figure}
+\input{src/01_aim.tex}
+\input{src/02_related_research.tex}
+\input{src/03_method.tex}
+\input{src/04_reslut.tex}
+\input{src/05_outlook.tex}
 
-\section{第２章です。}
-\subsection{第２章第１節です。\\}
+\input{src/outroduction.tex}
 
-実験にあたり，
-\section{第３章です。}
-\subsection{第３章第１節です。}
-\subsection{第３章第２節です。}
-\section{第４章です。}
-\section*{おわりに}
 
-{\small
-\begin{thebibliography}{99}
-  \bibitem{□□□□}
-    □□著者□□, □□著者□□,
-    {\it □□□書籍題名□□□},
-    □□出版社□□, (□発行年□),
-    pp.□□--□□
-  \bibitem{□□□□}
-    □□著者□□, □□著者□□,
-    {\it □□□論文題名□□□},
-    ``□□雑誌名□□'',
-    □巻□,□号□, (□発行年□),
-    pp.□□--□□
-\end{thebibliography}}
+
+
+\input{src/references.tex}
+
 
 \clearpage
 \end{document}
